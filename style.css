@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Coustard:wght@400;900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+nav{
+    background-color: #f0e7dd;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.right a img{
+    width: 60px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+nav ul li{
+    list-style: none;
+
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: #6a3212;
+    font-family: "Coustard", serif;
+    font-size: 15px;
+}
+nav ul li a:hover{
+    color: #c23422;
+
+
+}
+
+.carousel a img{
+    display: block;
+    width: 100%;
+}
+.card{
+    display: flex;
+    padding: 20px;
+    margin: 0 auto;
+    gap: 12px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card a img{
+    height: 220px;
+    text-align: center ;
+}
+.box-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    gap: 45px;
+    height: 380px;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.feature{
+    background-color: rgb(238, 238, 238);
+    padding: 50px;
+}
+
+.box-container a{
+    text-decoration: none;
+    color: #666;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-family: "Ubuntu", "Coustard";
+
+}
+.box-container span{
+    font-weight: 600;
+    padding: 10px;
+}
+.box-header{
+    font-size: 20px;
+    font-family: 'Coustard', Courier, monospace;
+    padding: 30px 0;
+}
+
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: #2f1c11;
+    color: #e2e2e2;
+    border-top: 1px solid #6a4733;
+    padding: 30px;
+}
+
+footer li{
+    list-style: none;
+}
+
+.footer h5{
+    color: #d56b1f;
+    font-family: "Coustard", "Open Sans", Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 10px;
+    margin-top: 22px;
+    padding: 0;
+    text-shadow: none;
+}
+
+.foot{
+    border-left: 1px solid #6a4733;
+    padding: 10px;
+}
+
+
+.foot a{
+    text-decoration: none;
+    color: #e2e2e2;
+}
+
+.foot a:hover{
+    color: #aa4b3a;
+    transition-duration: 0.3s;
+}
